@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,11 +7,56 @@
     <link rel="stylesheet" href="style.css" />
     <title>Trello?</title>
   </head>
-<body>
-  
-</body>
-<script src=""></script>
-<footer>
-  <p>footer-part</p>
-</footer>
-</html>
+  <body>
+    <header>
+      <div class="header-title">Trello?</div>
+    </header>
+    <div class="main-container">
+      <div class="list-container">
+        <div class="list-header">ギークサロン</div>
+        <div class="cards-container" id="cards-container">
+          <!-- ここにカードを追加する -->
+        </div>
+        <div class="list-footer">
+          <div class="input-container">
+            <input type="text" class="input-todo" id="input-todo" />
+            <div class="input-button" id="add-button">追加</div>
+          </div>
+        </div>
+      </div>
+      <div class="list-container">
+        <div class="list-header">大学</div>
+        <div class="cards-container">
+          <div class="card">
+            <div class="todo">これをやる</div>
+            <div class="delete"></div>
+          </div>
+          <div class="card">
+            <div class="todo">それをやる</div>
+            <div class="delete"></div>
+          </div>
+        </div>
+        <div class="list-footer">＋カードを追加</div>
+      </div>
+      <div class="list-container">
+        <div class="list-header">家事</div>
+        <div class="cards-container">
+          <div class="card">
+            <div class="todo">あれをやる</div>
+            <div class="delete"></div>
+          </div>
+          <div class="card">
+            <div class="todo">どれをやる</div>
+            <div class="delete"></div>
+          </div>
+        </div>
+        <div class="list-footer">＋カードを追加</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+      <p>footer-part</p>
+      <p>second-edit</p>
+      <p>third-editb</p>
+    </footer>
+  </body>
