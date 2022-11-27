@@ -9,11 +9,11 @@
   </head>
   <body>
     <header>
-      <div class="header-title">JUST DO IT!</div>
+      <div class="header-title">Komamemo</div>
     </header>
     <div class="main-container">
       <div class="list-container">
-        <div class="list-header">ギークサロン</div>
+        <div class="list-header">大学課題</div>
         <div class="cards-container" id="cards-container">
           <!-- ここにカードを追加する -->
         </div>
@@ -25,38 +25,63 @@
         </div>
       </div>
       <div class="list-container">
-        <div class="list-header">大学</div>
-        <div class="cards-container">
-          <div class="card">
-            <div class="todo">これをやる</div>
-            <div class="delete"></div>
-          </div>
-          <div class="card">
-            <div class="todo">それをやる</div>
-            <div class="delete"></div>
+        <div class="list-header">予定</div>
+        <div class="cards-container" id="cards-container">
+          <!-- ここにカードを追加する -->
+        </div>
+        <div class="list-footer">
+          <div class="input-container">
+            <input type="text" class="input-todo" id="input-todo" />
+            <div class="input-button" id="add-button">追加</div>
           </div>
         </div>
-        <div class="list-footer">＋カードを追加</div>
       </div>
       <div class="list-container">
-        <div class="list-header">家事</div>
-        <div class="cards-container">
-          <div class="card">
-            <div class="todo">あれをやる</div>
-            <div class="delete"></div>
-          </div>
-          <div class="card">
-            <div class="todo">どれをやる</div>
-            <div class="delete"></div>
+        <div class="list-header">買い物</div>
+        <div class="cards-container" id="cards-container">
+          <!-- ここにカードを追加する -->
+        </div>
+        <div class="list-footer">
+          <div class="input-container">
+            <input type="text" class="input-todo" id="input-todo" />
+            <div class="input-button" id="add-button">追加</div>
           </div>
         </div>
-        <div class="list-footer">＋カードを追加</div>
+      </div>
+      <div class="list-container">
+        <div class="list-header">完了</div>
+        <div class="cards-container" id="cards-container">
+          <!-- ここにカードを追加する -->
+        </div>
+        <div class="list-footer">
+          <div class="input-container">
+            <input type="text" class="input-todo" id="input-todo" />
+            <div class="input-button" id="add-button">追加</div>
+          </div>
+        </div>
       </div>
     </div>
-    <script src="script.js"></script>
-    <footer>
-      <p>footer-part</p>
-      <p>second-edit</p>
-      <p>third-editb</p>
+    <footer class="footer">
+      <div class="clock">
+        <div class="dials">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="hour hand"></div>
+      <div class="minute hand"></div>
+      <div class="second"></div>
     </footer>
   </body>
+  <script src="script.js"></script>
+</html>
